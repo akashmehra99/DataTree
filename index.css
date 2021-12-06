@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+  line-height: 40px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+ul span:hover,
+li span:hover {
+  text-decoration: underline;
+  color: slateblue;
+}
+
+.adjustMargin {
+  margin-left: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+.active {
+  display: block;
+}
